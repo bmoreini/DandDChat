@@ -1,0 +1,26 @@
+{
+  "name": "danddchat",
+  "version": "1.0.0",
+  "description": "Web Socket Chat App for D&D Student Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmoreini/DandDChat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmoreini/DandDChat/issues"
+  },
+  "homepage": "https://github.com/bmoreini/DandDChat#readme",
+  "dependencies": {
+    "destroy": "^1.0.4",
+    "express": "^4.17.1",
+    "save": "^2.4.0",
+    "socket.io": "^2.3.0"
+  }
+}
